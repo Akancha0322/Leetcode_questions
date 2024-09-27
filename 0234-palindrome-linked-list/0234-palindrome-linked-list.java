@@ -15,7 +15,7 @@ class Solution {
             return true;
         }
 
-        //define slow and fast position
+        //define slow and fast pointers
         ListNode slow = head;
         ListNode fast = head;
 
