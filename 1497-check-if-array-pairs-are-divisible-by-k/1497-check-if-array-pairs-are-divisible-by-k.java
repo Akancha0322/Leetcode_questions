@@ -1,8 +1,8 @@
 class Solution {
     public boolean canArrange(int[] arr, int k) {
        int freq[] = new int[k];
-        for(int i=0; i<arr.length; i++){
-          int rem = arr[i] % k;
+        for(int i: arr){
+          int rem = i % k;
             if(rem < 0){
                 rem = rem + k;
             }
