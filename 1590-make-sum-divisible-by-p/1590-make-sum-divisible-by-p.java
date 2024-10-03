@@ -26,11 +26,7 @@ class Solution {
             remMap.put(currSum , i);
         }
 
-        if(minLen == n){
-            return -1;
-        }
-
-        return minLen;
+        return minLen == n ? -1 : minLen;
 
     }
 }
